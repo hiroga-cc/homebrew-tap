@@ -1,0 +1,12 @@
+cask 'stoplight-next' do
+  version '4.10.7'
+  sha256 '00c0e52eb56a29157ed53b1eafd45446b03709be74b2944e50759b1ee3740eba'
+
+  # github.com/stoplightio/studio was verified as official when first introduced to the cask
+  url "https://github.com/stoplightio/desktop/releases/download/v#{version}/stoplight-next-#{version}.dmg"
+  appcast 'https://github.com/stoplightio/desktop/releases.atom'
+  name 'Stoplight Next'
+  homepage 'https://github.com/stoplightio/desktop/'
+
+  app 'Stoplight Next.app'
+end
