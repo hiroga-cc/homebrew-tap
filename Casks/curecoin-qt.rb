@@ -1,4 +1,4 @@
-cask 'curecon-qt' do
+cask 'curecoin-qt' do
     version '2.0.0.2'
     sha256 'daffb55354cc16cc715640b72d8fae593b319571e1d31b65c7487a89dd118251'
   
