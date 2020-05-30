@@ -7,7 +7,6 @@ cask 'myna-portal-chrome' do
   homepage 'https://app.oss.myna.go.jp/Application/resources/dousakankyou/index.html'
 
   pkg 'MynaPortalAppSetup.pkg'
-  app 'マイナポータルAP.app'
 
   uninstall delete: [
                       '/Library/Google/Chrome/NativeMessagingHosts/jp.go.cao.mpa.json',
