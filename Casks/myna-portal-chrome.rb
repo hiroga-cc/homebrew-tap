@@ -9,6 +9,7 @@ cask 'myna-portal-chrome' do
   pkg 'MynaPortalAppSetup.pkg'
 
   uninstall delete: [
+                      '/Applications/マイナポータルAP.app',
                       '/Library/Google/Chrome/NativeMessagingHosts/jp.go.cao.mpa.json',
                     ]
 
